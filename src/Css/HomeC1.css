@@ -1,0 +1,141 @@
+.hb-container1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    opacity: 0.9;
+    padding: 15px  0px;
+}
+
+.hb-item {
+    color: black;
+}
+.hb-item h2{
+    color: black;
+    text-align: center;
+    /* font-family: Abel,sans-serif; */
+    font-weight: 400;
+}
+.hb-item2 {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    margin: 0px 5px;
+    padding: 0px 115px;
+
+}
+.hb-item h4{
+    font-weight: 400;
+}
+.hb-container2{
+    background-image: url(../assets/cont2.jpg);
+    height: 27em;
+    bottom: 1px;
+    position: relative;
+    padding: 15px 0px;
+
+
+}
+.blur-pic{
+    background-image: url(../assets/cont2.jpg);
+    filter: blur(4px);
+    left: 0em;
+    position: relative;
+    height: 27em;
+    width: 47em;
+    z-index: 1;
+}
+.cont2_right{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.cont2_content{
+    position: relative;
+    bottom: 22em;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    left: 9em;
+    width: 22em;
+}
+.cont2_content h1{
+    font-size: 5em;
+    position: relative;
+    font-weight: 400;
+    width: 7em;
+    bottom: 1em;
+    letter-spacing: 6px;
+    right: 1em;
+}
+.cont2_content h4{
+    font-size: 1em;
+    font-weight: 400;
+    bottom: 7em;
+    width: 35em;
+    right: 92px;
+    position: relative;
+    letter-spacing: 6px;
+}
+.cont2_content a{
+    /* text-decoration: none; */
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    bottom: 7em;
+    position: relative;
+    color: white;
+    left: 9em;
+    width: fit-content;
+}
+.cont2_content a:hover{
+    border-bottom: 2px solid white;
+        
+}
+.cont4{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.crow{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.plate{
+    background-image: url("../assets/plates.png");
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    width: 37em;
+    right: 0em;
+    height: 28em;
+    bottom: 17em;
+}
+.word{
+    position: relative;
+    width: 32em;
+    bottom: 8em;
+    right: 7em;
+    letter-spacing: 3px;
+    height: fit-content;
+}
+/* .row2 , .row4{
+    background-image: url("../assets/plates.png");
+    background-repeat: no-repeat;
+} */
+.lom{
+    position: relative;
+    left: 2em;
+}
+.Lpic{
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    width: 43em;
+    right: 0em;
+    height: 28em;
+    bottom: 17em;
+    background-image: url("../assets/plates2.png" )!important;
+}
